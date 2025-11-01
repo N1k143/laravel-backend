@@ -13,6 +13,7 @@
                 <li class="nav-item"><a class="nav-link" href="{{ route('home') }}">Главная</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ route('about') }}">О проекте</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ route('contacts') }}">Контакты</a></li>
+                <li class="nav-item"><a href="{{ route('students.index') }}" class="nav-link">Студенты</a></li>
             </ul>
         </div>
     </nav>
